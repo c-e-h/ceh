@@ -1,0 +1,49 @@
+body {
+  background: rgb(34,162,255);
+  background: radial-gradient(circle, rgba(34,162,255,1) 0%, rgba(51,89,104,1) 50%, rgba(51,184,255,1) 100%);
+}
+
+a:link {
+  text-decoration: underline;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+#logo {
+  display: block;
+  max-width: 200pt;
+  max-height: 300pt;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 24px; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle {
+  color: white;
+  font-size: 18px; 
+  font-family: 'Open Sans', sans-serif;
+}
